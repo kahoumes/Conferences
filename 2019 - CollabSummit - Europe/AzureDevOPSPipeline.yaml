@@ -21,7 +21,7 @@ steps:
     ArtifactName: Demo
 - task: AzurePowerShell@4
   inputs:
-    azureSubscription: 'Visual Studio Enterprise (3de0cad0-1774-42c2-8d7d-b7d6c4ec8afc)'
+    azureSubscription: '3de0cad0-1774-42c2-8d7d-b7d6c4ec8afc'
     ScriptType: 'InlineScript'
     Inline: |
            Write-Host "Setting Security Protocol"
